@@ -4,9 +4,7 @@ This is a small demo of how to create an MCP server and understand its basic log
 
 It uses **Cirbi** - a fictional character intentionally misspelled (Cirbi instead of Kirby). The goal is to slightly confuse the LLM and ensure it does not rely on prior knowledge when reasoning about it.
 
-![Kirbi-ai](.\\images\\cirbi-ai.PNG)
-
----
+![Kirbi-ai](https://raw.githubusercontent.com/mhornstein/Cirbi-Demo/main/images/cirbi-ai.PNG)
 
 ## Prerequisites
 
@@ -122,7 +120,7 @@ The CMD will appear blank and wait for input. You can interact with the server u
 {"jsonrpc":"2.0","id":0,"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"example-client","version":"1.0"}}}
 ```
 
-When the server responds, confirm you're ready by sending:
+When the server responds, confirm you're ready by sending:
 
 ```json
 {"jsonrpc":"2.0","method":"notifications/initialized"}
@@ -163,9 +161,9 @@ Try asking Claude to use Cirbi. For example:
 
 You will see that it does not understand what you mean yet. 
 
-Note that there is also no "cirbi connector" available at this stage:
+Note that there is also no "cirbi connector" available at this stage (only the "Add Connectors" option is avaiable):
 
-![No Cirbi connector](.\\images\\cladue-no-connectors.PNG)
+![No Cirbi connector](https://raw.githubusercontent.com/mhornstein/Cirbi-Demo/main/images/cladue-no-connectors.PNG)
 
 ---
 
@@ -205,7 +203,7 @@ To update the config:
 
 You can see now that the cirbi connector appears and can be turn on.
 
-![Claude with Cirbi connector](.\\images\\cladue-with-connectors.PNG)
+![Claude with Cirbi connector](https://raw.githubusercontent.com/mhornstein/Cirbi-Demo/main/images/claude-with-connectors.PNG)
 
 Try in chat:
 
