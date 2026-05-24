@@ -30,11 +30,11 @@ def cirbi(gesture: str, times: int):
     Return repeated Cirbi-style text based on the chosen gesture and number of repeats.
     '''
     if gesture == "hug":
-        return "(>^_^)> " * times
+        return "(>^.^)> " * times
     elif gesture == "dance":
         return "v(-'.'-)^ " * times
     else:
-        return "(>'.')> ???"
+        return "(>'.')> ?"
 
 
 if __name__ == "__main__":
@@ -73,11 +73,11 @@ def cirbi(gesture: str, times: int):
     Return repeated Cirbi-style text based on the chosen gesture and number of repeats.
     '''
     if gesture == "hug":
-        return "(>^_^)> " * times
+        return "(>^.^)> " * times
     elif gesture == "dance":
         return "v(-'.'-)^ " * times
     else:
-        return "(>'.')> ???"
+        return "(>'.')> ?"
 
 
 if __name__ == "__main__":
@@ -212,6 +212,11 @@ Try in chat:
 * ```please make cirbi dance based on the number of sides in a triangle.```
 * ```please make cirbi affectionate based on the number of continents we have.```
 * ```please make cirbi hub based on the number of continents we have``` (note the typo in "hub"!)
+
+### 💡 Tip
+
+Try running the same prompt using both Haiku and Sonnet models to see how their outputs differ in real time. 
+Haiku is usually faster and more concise, while Sonnet tends to give deeper and more structured responses.
 
 ---
 
